@@ -50,7 +50,7 @@ async function firebaseBackend() {
   if (cfg.appCheckSiteKey) {
     const ac = await import(CDN + 'firebase-app-check.js');
     ac.initializeAppCheck(app, {
-      provider: new ac.ReCaptchaV3Provider(cfg.appCheckSiteKey),
+      provider: new ac.ReCaptchaEnterpriseProvider(cfg.appCheckSiteKey),
       isTokenAutoRefreshEnabled: true,
     });
   }
