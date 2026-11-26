@@ -1,0 +1,13 @@
+{
+  "name": "Plantae",
+  "short_name": "Plantae",
+  "description": "Guarda as tuas plantas, identifica-as com IA e tira dúvidas com o Gemini.",
+  "lang": "pt-PT",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#1f3d2b",
+  "theme_color": "#1f3d2b",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
