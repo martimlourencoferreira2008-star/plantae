@@ -11,7 +11,7 @@ window.PLANTAE_CONFIG = {
     appId: '1:852009308026:web:1b83fdba495b62190e50c3',
   },
   // Opcional mas recomendado em produção: chave reCAPTCHA v3 para o App Check.
-  appCheckSiteKey: '',
+  appCheckSiteKey: '6Lf3ZTMuAAAAAEIHIO7aVRl-RMN-UZBjwAkyad9U',
   // Modelo Gemini via Firebase AI Logic (Gemini Developer API). Verifica a lista atual na documentação.
   geminiModel: 'gemini-3.8-flash',
   // Versão do SDK Firebase carregada pelo CDN do Google.
